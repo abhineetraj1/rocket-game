@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Space Game</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="ic.png">
+	<meta name="keyword" content="javascript game,github,Abhineet Raj,abhineetraj,abhineet raj game,space game">
+	<meta name="description" content="This is simple space game, made in HTML, javascript and css. The soucre code is uploaded in github, by Abhineet Raj">
+	<style type="text/css">
+		body{
+			background: black;
+			color: white;
+			font-family: cursive;
+			font-size: 3vh;
+			text-align: center;
+		}
+		p{
+			color: red;
+		}
+		u{
+			font-size: 4vh;
+			color: white;
+			font-style: bold;
+		}
+	</style>
+</head>
+<body>
+	<u>Space game</u><br><br>
+	Commands
+press "w" - to move ship up<br>
+press "s" - to move ship down<br>
+press "a" - to move ship left<br>
+press "d" - to move ship right<br>
+press "r" - to launch rocket<br>
+<br><br>
+Don't turn on the CapsLock, because it won't work
+<br><br>
+<p>Press enter to continue</p>
+<script type="text/javascript">
+	document.body.onkeypress=function (e) { console.log(e);
+		if(e.key=="Enter") {
+			window.location.href="gm3.html";
+		}
+	}
+function sttt() {var p=document.createElement("p");p.innerHTML="Made By Abhineet Raj";p.style="text-align:center;height:5vh;padding:3px;font-size:3vh;background:white;color:black;position:absolute;top:90vh;float:right;";document.body.appendChild(p);}
+sttt();
+</script>
+</body>
+</html>
