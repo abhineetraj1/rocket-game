@@ -40,7 +40,7 @@ window.onkeydown= function(e) {
 		var n=0;
 	}
 }
-function sttt() {var p=document.createElement("p");p.innerHTML="Made By Abhineet Raj";p.style="text-align:center;height:5vh;padding:3px;font-size:3vh;background:white;color:black;position:absolute;top:90vh;float:right;";document.body.appendChild(p);}
+function sttt() {var p=document.createElement("p");p.innerHTML="<a href='https://github.com/abhineetraj1'>Made By Abhineet Raj</a>";p.style="text-align:center;height:5vh;padding:3px;font-size:3vh;background:white;color:black;position:absolute;top:90vh;float:right;";document.body.appendChild(p);}
 sttt();
 var g_over="<center><h1>Game Over!!</h1><br><h3>You have crossed the border line</h3></center>"
 function attack() {
