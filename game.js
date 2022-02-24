@@ -1,4 +1,4 @@
-if(window.innerWidth<window.innerHeight){document.body.innerHTML="<center><h1 color="red">This game will not work in mobile device. Open this game in github.</h1></center>";}
+if(window.innerWidth<window.innerHeight){document.body.innerHTML="<center><h1 color='red'>This game will not work in mobile device. Open this game in github.</h1></center>";}
 document.getElementById('ship').style.top="100px";
 document.getElementById('ship').style.left="100px";
 function ship_move(x,y) {
